@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kainat Dairy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/Poetry Hub.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Josefin+Slab:ital,wght@1,600&family=Poiret+One&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Josefin+Slab:ital,wght@1,600&family=Poiret+One&family=Poppins:wght@300;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/MUallaa.png" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Josefin+Slab:ital,wght@1,600&family=Poiret+One&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+
+    <!-- background green animation conatiners -->
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+
+    <Header>
+        <div class="Navbar">
+            <div class="menu">
+                <ul>
+
+                    <li class="menu-has-children"><a href="./pages/indx.html">About <i
+                                class="dicon ion-md-arrow-dropdown"></i></a>
+                    <li> <a href="assets/poets.html">Poets</a></li>
+                    <li> <a href="index.html">Home</a></li>
+
+                </ul>
+            </div>
+            <div class="logo">
+                <a href="./pages/rating.html"><img src="assets/MUallaa.png" alt="Muallaa" height="90"></a>
+            </div>
+    </Header>
+    <footer>
+        <div class="submitdis">
+            <div class="submit">
+                <a href="https://www.facebook.com/ashhar.jamali.792?mibextid=ZbWKwL" class="fa fa-facebook"></a>
+                <a href="https://youtube.com/@ashar_jamali_?si=C68OFd4nuVRQbiaq" class="fa fa-youtube"></a>
+                <a href="https://www.instagram.com/ashar_jamali/profilecard/?igsh=MXYyOWMzcmZucHFoNQ=="
+                    class="fa fa-instagram"></a>
+
+            </div>
+        </div>
+        </div>
+
+    </footer>
+
+    <main>
+        <section>
+            <!-- Login and sign up from -->
+            <div class="main">
+                <input type="checkbox" id="chk" aria-hidden="true">
+
+                <div class="signup">
+                    <form>
+                        <label for="chk" aria-hidden="true" title="Click Sign up/login">Sign up</label>
+                        <input type="text" name="txt" placeholder="User name" required="">
+                        <input type="email" name="email" placeholder="Email" required="">
+                        <input type="password" name="pswd" placeholder="Password" required="">
+                        <button title="Sign up">Sign up</button>
+                    </form>
+                </div>
+
+                <div class="login">
+                    <form class="login1">
+                        <label for="chk" aria-hidden="true" title="Click to Login">Login</label>
+                        <input type="email" name="email" placeholder="Email" required="">
+                        <input type="password" name="pswd" placeholder="Password" id="myInput" required="">
+                        <label for="Show" class="show" aria-hidden="true" title="Show Password">Show Password</label>
+                        <input type="checkbox" class="" id="Show" onclick="myFunction()">
+                        <button href="assets/poets.html" class="Forget" title="Login">Login</button>
+                        <a class="Forget" id="fp" href="index.html" title="Lets forget the Password if you want">Forgot
+                            Password?</a>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section>
+        <!-- picture fade animation  -->
+        <div class="img">
+            <div class="slider">
+            </div>
+        </div>
+        <br>
+
+
+        <a
+            href="https://www.linkedin.com/in/ashhar-jamali-5322642a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <button class="button"><span>Know More </span></button></a>
+    </section>
+    <!-- Password vaildataion Notification code in js -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myInput");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+</body>
+
+</html>

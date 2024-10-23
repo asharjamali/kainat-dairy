@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kainat Dairy</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <style>
+        /* developer info section begins here */
+        .body {
+            background-color: #050201;
+        }
+
+        .developers {
+            border: 2px solid #ff4f01;
+            height: 640px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            border-radius: 24px;
+            background-image: url(dev-0.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            justify-content: space-evenly;
+            background-color: rgb(161, 224, 224);
+        }
+
+        .dev1 {
+            width: 340px;
+            height: 415px;
+            margin-top: 15%;
+            background-color: #1A1B37;
+            box-shadow: 10px 10px 10px 10px slategray;
+        }
+
+        /* .dev2 {
+    width: 340px;
+    height: 415px;
+    margin-top: 15%;
+    background-color: #1A1B37;
+    box-shadow: 10px 10px 10px 10px slategray;
+} */
+
+        .captiondev {
+            width: 100%;
+            margin-top: 90%;
+            height: 48px;
+            background-color: #ff4f01;
+            color: white;
+            font-family: 'Amaranth', sans-serif;
+            text-align: center;
+            margin-top: 7%;
+        }
+
+        .devcontainer {
+            padding: 3%;
+            width: 80%;
+
+
+        }
+
+        .dev-image img {
+            width: 300px;
+            height: 260px;
+            margin: auto;
+            margin-top: auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 6%;
+        }
+
+        .dev-image {
+            transition: all 0.1s ease-in-out;
+        }
+
+        .dev-image:hover {
+            transform: scale(1.12);
+        }
+
+        /* social media links */
+        /* Social Media Icons */
+        .social-media-list {
+            position: relative;
+            font-size: 22px;
+            text-align: center;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        .social-media-list li a {
+            color: #fff;
+            z-index: 2;
+            position: relative;
+        }
+
+        .social-media-list li {
+            position: relative;
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            margin: 10px 3px;
+            line-height: 42px;
+            border-radius: 50%;
+            color: #fff;
+            background-color: rgb(113, 20, 90);
+            cursor: pointer;
+            transition: all .2s ease-in-out;
+        }
+
+        .social-media-list li:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 41px;
+            height: 41px;
+            line-height: 60px;
+            border-radius: 50%;
+            opacity: 0;
+            box-shadow: 0 0 0 1px #fff;
+            transition: all .2s ease-in-out;
+        }
+
+        .social-media-list li:hover {
+            background-color: #fff;
+        }
+
+        .social-media-list li:hover:after {
+            opacity: 1;
+            transform: scale(1.12);
+            transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+        }
+
+        .social-media-list li:hover a {
+            color: #000;
+        }
+
+        #twitter:hover a {
+            color: rgb(37, 186, 245);
+        }
+
+        #instagram:hover a {
+            color: rgb(150, 47, 191);
+        }
+
+        #linkedin:hover a {
+            color: rgb(0, 85, 119);
+        }
+
+        #facebook:hover a {
+            color: rgb(57, 127, 219);
+        }
+
+        #youtube:hover a {
+            color: rgb(204, 19, 19);
+        }
+
+
+
+        /* developer info section ends here */
+    </style>
+</head>
+
+<body>
+    <!-- developer credit section begins here -->
+    <section></section>
+
+    <h1 style="text-align: center;">
+        <li class="menu-has-children"> <a href="indx.html"> <span style="text-align:center ;">Developer
+                    ID</span><i class="dicon ion-md-arrow-dropdown"></i></a>
+    </h1>
+
+    <div class="devcontainer">
+        <div class="developers">
+            <h1 style="text-align: center;" class="heading3"> <a href="index.html">DEVELOPED BY <span
+                        style="color: rgb(48, 11, 181);"> ASHHAR
+                        JAMALI</span></a>
+            </h1>
+
+
+            <div class="dev-image">
+                <div class="dev-image">
+                    <img src="../assets/dev-1.jpg" alt="">
+                </div>
+                <div class="captiondev">
+                    <h3>ASHHAR JAMALI
+                    </h3>
+                    <!-- <p>21S15A0512</p> -->
+                    <P>III YEAR Computer Science Engineering </p>
+                </div>
+                <ul class="social-media-list">
+                    <li><a href="https://www.facebook.com/ashhar.jamali.792?mibextid=ZbWKwL" target="_blank"
+                            class="contact-icon">
+                            <i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+
+                    <li id="linkedin">
+                        <a href="https://www.linkedin.com/in/ashhar-jamali-5322642a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank" class="contact-icon"><i class="fa-brands fa-linkedin"
+                                aria-hidden="true"></i></a>
+                    </li>
+                    <li id="twitter">
+                        <a href="https://x.com/AshharJama?t=TS49z_i9vcKQbPRaq48MAg&s=08" target="_blank"
+                            class="contact-icon">
+                            <i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li id="instagram">
+                        <a href="https://www.instagram.com/ashar_jamali/profilecard/?igsh=MXYyOWMzcmZucHFoNQ=="
+                            target="_blank" class="contact-icon">
+                            <i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li id="website">
+                        <a href="https://wa.me/918789750226" target="_blank" class="contact-icon">
+                            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    </section>
+    <!-- developer credit section ends here -->
+</body>
+
+</html>
